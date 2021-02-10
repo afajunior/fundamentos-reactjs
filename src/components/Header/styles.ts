@@ -22,6 +22,11 @@ export const Container = styled.div<ContainerProps>`
         text-decoration: none;
         font-size: 16px;
         transition: opacity 0.2s;
+        
+        &:hover {
+          border-bottom: 2px solid #FF872C;
+          padding-bottom: 10px;
+        }
 
         & + a {
           margin-left: 32px;
